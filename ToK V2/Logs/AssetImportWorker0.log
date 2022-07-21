@@ -1,0 +1,1466 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/fravi/Projects Unity/ToK V2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63792
+Successfully changed project path to: C:/Users/fravi/Projects Unity/ToK V2
+C:/Users/fravi/Projects Unity/ToK V2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fravi/Projects Unity/ToK V2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3991 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001221 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (343ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Domain Reload Profiling:
+	ReloadAssembly (824ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2473 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.8 MB.
+System memory in use after: 110.0 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 2.743900 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.394700 ms  DeleteObjects: 0.093500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Parent/Classwork.unity
+  artifactKey: Guid(03c9c13e66df1e442a673c700d993f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Parent/Classwork.unity using Guid(03c9c13e66df1e442a673c700d993f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095d5404461803c7198e7f253a8d2d5f') in 0.017169 seconds 
+  Import took 0.020965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.366549 seconds.
+  path: Assets/Script/Parent
+  artifactKey: Guid(770e440869f90c34fb3ad6679c4fc29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent using Guid(770e440869f90c34fb3ad6679c4fc29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9254124d7f8c24f1f888a281b5a70b90') in 0.007273 seconds 
+  Import took 0.011303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.065429 seconds.
+  path: Assets/Script/Parent/Parent - Classwork
+  artifactKey: Guid(fd89f3ccbdae242418bcd4850d633d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork using Guid(fd89f3ccbdae242418bcd4850d633d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb36ce4ea290e1e0852fa27a42fe858') in 0.006986 seconds 
+  Import took 0.011298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.474141 seconds.
+  path: Assets/Script/Parent/Parent - Classwork/AddNote.cs
+  artifactKey: Guid(139b79d037fd4284e874157be3b33a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork/AddNote.cs using Guid(139b79d037fd4284e874157be3b33a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3d2fe1f5cb5e0215b5068da4df4b79') in 0.018125 seconds 
+  Import took 0.022217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.854668 seconds.
+  path: Assets/Script/Parent/Parent - Classwork/changeText.cs
+  artifactKey: Guid(3577dc5a9fa195543834d077e149daa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork/changeText.cs using Guid(3577dc5a9fa195543834d077e149daa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b588d5df0c07acc1286a368a32f9757e') in 0.006133 seconds 
+  Import took 0.010308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.191021 seconds.
+  path: Assets/Script/Parent/Parent - Classwork/getClassworkDetails.cs
+  artifactKey: Guid(5c46d667aa346f64d9a3f5390b53b4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork/getClassworkDetails.cs using Guid(5c46d667aa346f64d9a3f5390b53b4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc47650308ba31f4ea79e12ac9276385') in 0.006479 seconds 
+  Import took 0.010102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.930329 seconds.
+  path: Assets/Script/Parent/Parent - Classwork/getClassworks.cs
+  artifactKey: Guid(00773f7ffa8b9804caafe6a1fb478ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork/getClassworks.cs using Guid(00773f7ffa8b9804caafe6a1fb478ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbd78c53203d7cefe0d804c3caff7c5') in 0.005772 seconds 
+  Import took 0.009813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.648718 seconds.
+  path: Assets/Script/Parent/Parent - Classwork/insertText.cs
+  artifactKey: Guid(4f577a673547d414591234c1ffc5fa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork/insertText.cs using Guid(4f577a673547d414591234c1ffc5fa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aa4c3b75e1a0fd2d0722b45556f27b') in 0.006209 seconds 
+  Import took 0.010678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.602960 seconds.
+  path: Assets/Script/Parent/Parent - Classwork/OpenPanel.cs
+  artifactKey: Guid(5aeb7d3abd207ec4c8a52b4dab0e8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Classwork/OpenPanel.cs using Guid(5aeb7d3abd207ec4c8a52b4dab0e8039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f8dd2f6e1f5ecfbb5cdfc5b5d8b3df') in 0.006114 seconds 
+  Import took 0.010576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.272567 seconds.
+  path: Assets/Scenes/Student/Games/puzzle/Manager.cs
+  artifactKey: Guid(0bbe51c9d62eba946bf69804d56e18ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/puzzle/Manager.cs using Guid(0bbe51c9d62eba946bf69804d56e18ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de75f2a386df05e854fcc9d7cc02db44') in 0.004912 seconds 
+  Import took 0.008844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005436 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/SimpleRecycledListView/IListViewAdapter.cs
+  artifactKey: Guid(08e51b912648ace4784ebe20fc6cc961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/SimpleRecycledListView/IListViewAdapter.cs using Guid(08e51b912648ace4784ebe20fc6cc961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525a27f8c8d05e7b11091e819b18847f') in 0.005240 seconds 
+  Import took 0.009084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005713 seconds.
+  path: Assets/scripts/ChangingScene.cs
+  artifactKey: Guid(9fab6bc97b1d1e94a96ea8cc729da9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/ChangingScene.cs using Guid(9fab6bc97b1d1e94a96ea8cc729da9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df4259d8b9d828804974df1f81739d8') in 0.005438 seconds 
+  Import took 0.009081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028161 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs
+  artifactKey: Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs using Guid(1a7eb92a01ed499a987bde9def05fbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d31bf171c5365552f4a91bd95634109') in 0.004800 seconds 
+  Import took 0.008634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004781 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/QuizDataScriptable.cs
+  artifactKey: Guid(b29ce1651b6922942964a30f611aa4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/QuizDataScriptable.cs using Guid(b29ce1651b6922942964a30f611aa4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23541f5f290452dbb8de2396f9f82d7a') in 0.005104 seconds 
+  Import took 0.008606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004762 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs
+  artifactKey: Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs using Guid(e32c266ee6204b21a427753cb0694c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3a421645fecc518dc1b53f528eb3f5') in 0.004905 seconds 
+  Import took 0.008358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004482 seconds.
+  path: Assets/scripts/Gameplay.cs
+  artifactKey: Guid(b5ea4dd2fb7441445b380899129a50c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/Gameplay.cs using Guid(b5ea4dd2fb7441445b380899129a50c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82969fe22e5b23794e059f0ea8a1b88b') in 0.004798 seconds 
+  Import took 0.008537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004528 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs
+  artifactKey: Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs using Guid(6f2c5b59b6874405865e2616e4ec276a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49bba7f7307fa047ffa36baa8d2f706') in 0.004808 seconds 
+  Import took 0.008656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004493 seconds.
+  path: Assets/Script/QrCodeGenerator.cs
+  artifactKey: Guid(f4cec22c07820954f87faeba28befbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/QrCodeGenerator.cs using Guid(f4cec22c07820954f87faeba28befbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab1f3c8c8e58c28439f235f57626ef8') in 0.004943 seconds 
+  Import took 0.008582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004556 seconds.
+  path: Assets/Script/Safearea.cs
+  artifactKey: Guid(a9277e9182cf72c448bd6c86b40a8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Safearea.cs using Guid(a9277e9182cf72c448bd6c86b40a8d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d44240f859c77b57d7a4cdafb5f732') in 0.004638 seconds 
+  Import took 0.008463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004766 seconds.
+  path: Assets/scripts/display_name.cs
+  artifactKey: Guid(2c8e89f21f6d8ff4f9e9a39f3bad2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/display_name.cs using Guid(2c8e89f21f6d8ff4f9e9a39f3bad2219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb8bccc860896817e68c2905bd76261') in 0.004847 seconds 
+  Import took 0.008621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004577 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs
+  artifactKey: Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs using Guid(686ec78b56aa445795335fbadafcfaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930d9c852221da6d28e8143cf25e0f38') in 0.004579 seconds 
+  Import took 0.008368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004595 seconds.
+  path: Assets/Script/SubjectData.cs
+  artifactKey: Guid(d93b45f31d3ed0c4facefac9b3646e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SubjectData.cs using Guid(d93b45f31d3ed0c4facefac9b3646e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a298978e3be6a4b986192b03512ce92d') in 0.004581 seconds 
+  Import took 0.008031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004756 seconds.
+  path: Assets/Plugins/zxing.unity (1).dll
+  artifactKey: Guid(c05cd894a93ce4c40b644b924d6c0b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/zxing.unity (1).dll using Guid(c05cd894a93ce4c40b644b924d6c0b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27d7377811a9c5d963de61b7b48fde4') in 0.009441 seconds 
+  Import took 0.013026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004723 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/IGameNotificationsPlatform.cs
+  artifactKey: Guid(f892243389bd4aaeb135eb13327a460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/IGameNotificationsPlatform.cs using Guid(f892243389bd4aaeb135eb13327a460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55bd430d6a012100066d25e79031a85') in 0.004755 seconds 
+  Import took 0.008372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004537 seconds.
+  path: Assets/Script/Sessions/Sessions.cs
+  artifactKey: Guid(46d2d27a99506b649a2afb833cdada35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Sessions/Sessions.cs using Guid(46d2d27a99506b649a2afb833cdada35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b783bd1978f7dd45ce13905e48a3d488') in 0.004810 seconds 
+  Import took 0.008389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004449 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/GameControl.cs
+  artifactKey: Guid(9a2289bc682f83b4ea5487caf76e3178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/GameControl.cs using Guid(9a2289bc682f83b4ea5487caf76e3178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33988075321149df00183a41162fd055') in 0.004349 seconds 
+  Import took 0.007932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004371 seconds.
+  path: Assets/Script/ChangeScene.cs
+  artifactKey: Guid(40c0b6306ebc096419c473abcb305cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/ChangeScene.cs using Guid(40c0b6306ebc096419c473abcb305cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aafa9a0a9dc8836bcbffe9f07014a0') in 0.004525 seconds 
+  Import took 0.008109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008389 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/Change.cs
+  artifactKey: Guid(72d41b3f507e16245a5f467b6f9edb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/Change.cs using Guid(72d41b3f507e16245a5f467b6f9edb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594820b3dd15ce07a4435193bedb8d22') in 0.004443 seconds 
+  Import took 0.008177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004557 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/QuizUI.cs
+  artifactKey: Guid(0ac5228f33c6bb146b4b1375e09f0ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/QuizUI.cs using Guid(0ac5228f33c6bb146b4b1375e09f0ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c055c3928d41e7fb10fd1bfea4ac09') in 0.004589 seconds 
+  Import took 0.008329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004677 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/categorychangescene.cs
+  artifactKey: Guid(e7f4832c3564b494abff6efe144a2021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/categorychangescene.cs using Guid(e7f4832c3564b494abff6efe144a2021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1bbd6ecf572410faf0ab577904c692d') in 0.004477 seconds 
+  Import took 0.007928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004540 seconds.
+  path: Assets/Script/onClickSubject.cs
+  artifactKey: Guid(0da9f5f602c20894890f11c83e9873e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/onClickSubject.cs using Guid(0da9f5f602c20894890f11c83e9873e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcb4110b5375da265720ba62432d918') in 0.004522 seconds 
+  Import took 0.008272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004451 seconds.
+  path: Assets/Script/Login.cs
+  artifactKey: Guid(e0287e05e00e974429ca4859f4d205a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Login.cs using Guid(e0287e05e00e974429ca4859f4d205a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab7e93edef47783d3dad69e473a4c0c') in 0.004376 seconds 
+  Import took 0.008047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005498 seconds.
+  path: Assets/Script/GameMenu.cs
+  artifactKey: Guid(3061777bbc2c0834e85f65ae1d9f1a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/GameMenu.cs using Guid(3061777bbc2c0834e85f65ae1d9f1a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeb6b5736527b6d23265c69eb445592') in 0.004850 seconds 
+  Import took 0.008546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004735 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/SwipeControl.cs
+  artifactKey: Guid(0aa4dbf8110dff148ad0de8bd515633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/SwipeControl.cs using Guid(0aa4dbf8110dff148ad0de8bd515633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e22966047f28fea5a23d337cff3f8b7') in 0.004502 seconds 
+  Import took 0.008259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004586 seconds.
+  path: Assets/Script/LoadScene.cs
+  artifactKey: Guid(b0285ac5b9a89d24e92c2cfff9085d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/LoadScene.cs using Guid(b0285ac5b9a89d24e92c2cfff9085d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bf2e8a2a6196b81871c19d2373fc5c') in 0.004451 seconds 
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004680 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs
+  artifactKey: Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs using Guid(43bcd35a1c0c40ccb6d472893fe2093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e964eb25bf5d707143bc83381325ff9') in 0.004733 seconds 
+  Import took 0.008381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004939 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/GameController.cs
+  artifactKey: Guid(1d87151d06c55490fadb463b5de02a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/GameController.cs using Guid(1d87151d06c55490fadb463b5de02a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c7486ea5f984ed98264b9454f3026f') in 0.004590 seconds 
+  Import took 0.008398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004515 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs
+  artifactKey: Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs using Guid(a73109742c8d47ac822895a473300c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd50e3ffdb692734c0b745db52cfe1c') in 0.004233 seconds 
+  Import took 0.007673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004552 seconds.
+  path: Assets/Scenes/Student/Games/puzzle/bahan/homechangescene.cs
+  artifactKey: Guid(b3f48544608f04246bbb6394084eb7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/puzzle/bahan/homechangescene.cs using Guid(b3f48544608f04246bbb6394084eb7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66664e611d8b824a9f5f39a0109476f') in 0.004441 seconds 
+  Import took 0.008050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008243 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/apple.cs
+  artifactKey: Guid(cf8925f90b857104cafbfb387d84a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/apple.cs using Guid(cf8925f90b857104cafbfb387d84a150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea070acaffb1075760d7cbcaaae934f5') in 0.004461 seconds 
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008645 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs
+  artifactKey: Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs using Guid(76c11bbcfddf44e0ba17d6c2751c8d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9e24787e8482570a04934bdfadbff2') in 0.004545 seconds 
+  Import took 0.008228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005334 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/Android/AndroidGameNotification.cs
+  artifactKey: Guid(3392c010e7054335a1e72b6376a2a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/Android/AndroidGameNotification.cs using Guid(3392c010e7054335a1e72b6376a2a86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e2e701c29b8508e75b782ea8e71789') in 0.004361 seconds 
+  Import took 0.008153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004544 seconds.
+  path: Assets/Scenes/Student/Games/BalloonPop/skor.cs
+  artifactKey: Guid(d18de1bf45ef1e74fa4bd3c3d2a0a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/BalloonPop/skor.cs using Guid(d18de1bf45ef1e74fa4bd3c3d2a0a0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8816198a1f517044f7482dc091bcb642') in 0.004691 seconds 
+  Import took 0.008283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004600 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/PendingNotificationItem.cs
+  artifactKey: Guid(3095404a74e54df49d046449b75d7fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/PendingNotificationItem.cs using Guid(3095404a74e54df49d046449b75d7fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96643829d3debf4dc85731934888e9b') in 0.004534 seconds 
+  Import took 0.008145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004729 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs
+  artifactKey: Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs using Guid(4f19c7f94c794c5097d8bd11e39c750d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8866982117488907ff2ad00fc38de2') in 0.004436 seconds 
+  Import took 0.008074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004506 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs
+  artifactKey: Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs using Guid(52ec835d14bd486f900952b77698b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf6bf619349739f8c544a1dad8f8805') in 0.004321 seconds 
+  Import took 0.008051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004384 seconds.
+  path: Assets/Script/Chabby/selectClasswork.cs
+  artifactKey: Guid(374fa72f5c028ba4186ded274e2e9d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Chabby/selectClasswork.cs using Guid(374fa72f5c028ba4186ded274e2e9d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564cd7018bbbd34def5d5e0961804abd') in 0.004988 seconds 
+  Import took 0.008604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004495 seconds.
+  path: Assets/Scenes/Student/Games/BalloonPop/bank_seal.cs
+  artifactKey: Guid(c830621581d7e5b4b968535547d3246c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/BalloonPop/bank_seal.cs using Guid(c830621581d7e5b4b968535547d3246c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7f7e150fd44579e4ca4f3c214c4f62') in 0.004556 seconds 
+  Import took 0.008157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004630 seconds.
+  path: Assets/Scenes/Student/Menu_Swipe.cs
+  artifactKey: Guid(f12907812cb42c8419c4778c3446ce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Menu_Swipe.cs using Guid(f12907812cb42c8419c4778c3446ce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed4b7298c891e7c6ea3662dd55558c7') in 0.004483 seconds 
+  Import took 0.008142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004377 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs
+  artifactKey: Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs using Guid(e4e0d9ccee5f4950be8979268c9014e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885bb8f0c08bff0852d1e5ebc3f8a3b3') in 0.004460 seconds 
+  Import took 0.008082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004634 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs
+  artifactKey: Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs using Guid(2787a46a4dc848c1b4b7b9307b614bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd8531c42380c24d0f63a0004d5f033') in 0.004521 seconds 
+  Import took 0.007963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004444 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/avocado.cs
+  artifactKey: Guid(0a86b4834ef73b54a9f3c9bb7be45b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/avocado.cs using Guid(0a86b4834ef73b54a9f3c9bb7be45b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e182f99a53e40e8a7f43b4e273d1e7') in 0.004388 seconds 
+  Import took 0.007811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004690 seconds.
+  path: Assets/Script/fetchClasslist.cs
+  artifactKey: Guid(b60adbbe142cf7b4a9a18114f30ae5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/fetchClasslist.cs using Guid(b60adbbe142cf7b4a9a18114f30ae5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c582182caaa0b36ce4d6cfb18ac022') in 0.004407 seconds 
+  Import took 0.007864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004423 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs
+  artifactKey: Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs using Guid(2d687537154440a3913a9a3c7977978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1293dca49ca6c1939850b09f5f69ee37') in 0.004449 seconds 
+  Import took 0.007879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004546 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/mango.cs
+  artifactKey: Guid(e03d2290d8c96774bafb6a40dea04061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/mango.cs using Guid(e03d2290d8c96774bafb6a40dea04061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b613ba1aef7b85789531da638ddbaf5d') in 0.004376 seconds 
+  Import took 0.007889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004485 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/GameControl1.cs
+  artifactKey: Guid(00d1c17224b867645ab6f9cc88ba0646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/GameControl1.cs using Guid(00d1c17224b867645ab6f9cc88ba0646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3d78f75ce7a6f5213bc63df8c804c1') in 0.004479 seconds 
+  Import took 0.008124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004369 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/iOS/iOSNotificationsPlatform.cs
+  artifactKey: Guid(da094f31508a46f0824273a104cbc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/iOS/iOSNotificationsPlatform.cs using Guid(da094f31508a46f0824273a104cbc87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccd1610f744c9103e13505acd6d3f20') in 0.004372 seconds 
+  Import took 0.007959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004358 seconds.
+  path: Assets/Script/Parent/Parent - To Do/assigned.cs
+  artifactKey: Guid(e921ae5b089aebb4787375b1072ff334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - To Do/assigned.cs using Guid(e921ae5b089aebb4787375b1072ff334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3283cc5a195ca3fcd57ad4c0c5f5f447') in 0.004319 seconds 
+  Import took 0.007841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004322 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/Android/AndroidNotificationsPlatform.cs
+  artifactKey: Guid(b1442f08fe2f4fd2b8a8c84f240c7f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/Android/AndroidNotificationsPlatform.cs using Guid(b1442f08fe2f4fd2b8a8c84f240c7f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffd714966de6e6f0529fa6606da0c00') in 0.004300 seconds 
+  Import took 0.007815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004332 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/SimpleRecycledListView/ListItem.cs
+  artifactKey: Guid(9c3e7249b2cb96446a7ccfbed51aab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/SimpleRecycledListView/ListItem.cs using Guid(9c3e7249b2cb96446a7ccfbed51aab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6073dfe45c14ac93b9f8f234cdac669') in 0.004277 seconds 
+  Import took 0.007692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004392 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserHelpers.cs
+  artifactKey: Guid(2370e7a82ec4087499ebf7efa149e9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserHelpers.cs using Guid(2370e7a82ec4087499ebf7efa149e9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795ecddb35b4930eede62ecff5114964') in 0.004289 seconds 
+  Import took 0.008068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008499 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/RestartScene.cs
+  artifactKey: Guid(4f1b0e619be681c49bbc0f80145d4660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/RestartScene.cs using Guid(4f1b0e619be681c49bbc0f80145d4660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada626812970a3036a55175575ecac84') in 0.004508 seconds 
+  Import took 0.008214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004563 seconds.
+  path: Assets/SimpleFileBrowser/Android/FBCallbackHelper.cs
+  artifactKey: Guid(997bfc59716c24c41ad03bcbd7f8ef0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Android/FBCallbackHelper.cs using Guid(997bfc59716c24c41ad03bcbd7f8ef0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d928577bbed621c2076f4a242f764d') in 0.004416 seconds 
+  Import took 0.007871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004489 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/NewsFeedReader.cs
+  artifactKey: Guid(57d48f28dfaef4638b0983a41dd9f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/NewsFeedReader.cs using Guid(57d48f28dfaef4638b0983a41dd9f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1e8cee3050397af39e3fa399676d2') in 0.004465 seconds 
+  Import took 0.007917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004334 seconds.
+  path: Assets/Script/Parent/Parent - To Do/completed.cs
+  artifactKey: Guid(b8ea3f8bf42ae084d892caa23e61eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - To Do/completed.cs using Guid(b8ea3f8bf42ae084d892caa23e61eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc8e0ebf847da0423fe6481352e7403') in 0.004426 seconds 
+  Import took 0.008024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004400 seconds.
+  path: Assets/Script/Teacher/FileManager.cs
+  artifactKey: Guid(7b2e58f738a40ee4aa40bd8fda69ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Teacher/FileManager.cs using Guid(7b2e58f738a40ee4aa40bd8fda69ddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ee598efff4541753bc61ebfaa66d73') in 0.004348 seconds 
+  Import took 0.007894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008096 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/iOS/iOSGameNotification.cs
+  artifactKey: Guid(a9ab9794270c42d4970cccc93a56cafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/iOS/iOSGameNotification.cs using Guid(a9ab9794270c42d4970cccc93a56cafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951e88ac000a8f6608e98e87820c6526') in 0.004308 seconds 
+  Import took 0.007969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004393 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/Loading.cs
+  artifactKey: Guid(2801d8d3dec1fca4c9f00f559105fd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/Loading.cs using Guid(2801d8d3dec1fca4c9f00f559105fd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1e20dd8ad63fb503ab3bc6d8e2aa45') in 0.004461 seconds 
+  Import took 0.008026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004371 seconds.
+  path: Assets/Script/Teacher/FileManager1.cs
+  artifactKey: Guid(a8b89d17199fad7459906d5b38a1071b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Teacher/FileManager1.cs using Guid(a8b89d17199fad7459906d5b38a1071b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590ad2d4c9232b0d844c66fe18148245') in 0.004290 seconds 
+  Import took 0.007712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004679 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserRenamedItem.cs
+  artifactKey: Guid(c7397ff7ae1ba4c47b6dfd3c84936584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserRenamedItem.cs using Guid(c7397ff7ae1ba4c47b6dfd3c84936584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1cb23645a5ea27f94f996d8b6e69de') in 0.004450 seconds 
+  Import took 0.008067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005396 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs
+  artifactKey: Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs using Guid(8ef7be1c625941f7ba8ed7cc71718c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5859e27e4f2f2b88c6993ce2032a7a7d') in 0.004842 seconds 
+  Import took 0.008350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008205 seconds.
+  path: Assets/Scenes/Student/Games/puzzle/bahan/feedback.cs
+  artifactKey: Guid(57358bb2c6349d749b15ee3975c7a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/puzzle/bahan/feedback.cs using Guid(57358bb2c6349d749b15ee3975c7a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7eb78c90cca3d31b0d91890c74e382') in 0.004344 seconds 
+  Import took 0.008080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004299 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs
+  artifactKey: Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs using Guid(a05dcd8be7ec4ccbb35c26219884aa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe44b4cc6bdada3014f1991c020cd72') in 0.004325 seconds 
+  Import took 0.007767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004615 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/ChangeScreen.cs
+  artifactKey: Guid(c1a944dd851acb449add907c5cea41c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/ChangeScreen.cs using Guid(c1a944dd851acb449add907c5cea41c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1062a89e507f61fcfc5cd80df0853c') in 0.004373 seconds 
+  Import took 0.007959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004409 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/ShuffleList.cs
+  artifactKey: Guid(04f62e29558952d4cb9aec147c1379d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/ShuffleList.cs using Guid(04f62e29558952d4cb9aec147c1379d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e76884c5258eccd4901f4575cb51ea4') in 0.004309 seconds 
+  Import took 0.007738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004454 seconds.
+  path: Assets/Scenes/Student/Games/BalloonPop/feed.cs
+  artifactKey: Guid(0b71f396357bd77459a02bcf43da2101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/BalloonPop/feed.cs using Guid(0b71f396357bd77459a02bcf43da2101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2071c5dbd08f98c1ccc8cc498016e7f6') in 0.004385 seconds 
+  Import took 0.008098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004752 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/InventoryItem.cs
+  artifactKey: Guid(580a2927f8fe34f1a9acae8c8980637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/InventoryItem.cs using Guid(580a2927f8fe34f1a9acae8c8980637b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5245781390233a16fa62ac33eaae36') in 0.005209 seconds 
+  Import took 0.008787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004961 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/GameNotificationsManager.cs
+  artifactKey: Guid(8cee98b792935d2499e84d5f659c1895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/GameNotificationsManager.cs using Guid(8cee98b792935d2499e84d5f659c1895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdac58406dbb28d768fe5e54c134178d') in 0.004946 seconds 
+  Import took 0.008828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004791 seconds.
+  path: Assets/Scenes/Student/ChangeScene1.cs
+  artifactKey: Guid(0803204a09066b948bb85ac4866a5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/ChangeScene1.cs using Guid(0803204a09066b948bb85ac4866a5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ed6d4f42f020946ab796e0f334e12') in 0.004911 seconds 
+  Import took 0.008613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004818 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/IGameNotification.cs
+  artifactKey: Guid(ee880bc0d6f744a08e3da3082a3cf02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/IGameNotification.cs using Guid(ee880bc0d6f744a08e3da3082a3cf02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a8d72229b995fd3413deb5b0e0da01') in 0.004884 seconds 
+  Import took 0.008535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005125 seconds.
+  path: Assets/Script/ArchiveSubjects.cs
+  artifactKey: Guid(3f75f2e668d04554b9f84310ad9a041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/ArchiveSubjects.cs using Guid(3f75f2e668d04554b9f84310ad9a041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b5fad1fc8902dae91c72f1af4a5d88') in 0.005213 seconds 
+  Import took 0.008916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013383 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/lvl1gamecontrol.cs
+  artifactKey: Guid(c9cdae29a7424be43955ade747d07c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/lvl1gamecontrol.cs using Guid(c9cdae29a7424be43955ade747d07c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0833dce33d2246aaa281071e33eb000') in 0.005041 seconds 
+  Import took 0.008708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004852 seconds.
+  path: Assets/SSTools/Scripts/SSTools.cs
+  artifactKey: Guid(87a6eaa9efa41844890325132c22595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SSTools/Scripts/SSTools.cs using Guid(87a6eaa9efa41844890325132c22595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ced3bde9b0621ee7d9318dae977aa') in 0.005104 seconds 
+  Import took 0.008613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004944 seconds.
+  path: Assets/Script/Parent/Parent - To Do/missing.cs
+  artifactKey: Guid(78bc9bd9d0fdf9c47b64a65a65bbf51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - To Do/missing.cs using Guid(78bc9bd9d0fdf9c47b64a65a65bbf51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37a1fcb1375f8a437b7ebc736465576') in 0.005325 seconds 
+  Import took 0.009044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004980 seconds.
+  path: Assets/Script/Teacher/InviteMail1.cs
+  artifactKey: Guid(b2eeb73538656e54e926b1c7b75c4545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Teacher/InviteMail1.cs using Guid(b2eeb73538656e54e926b1c7b75c4545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002f54be79f5a56f30e129acce85b8f3') in 0.005372 seconds 
+  Import took 0.009117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004883 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/grapes.cs
+  artifactKey: Guid(af0d50ace491be84abe2f9734db04483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/grapes.cs using Guid(af0d50ace491be84abe2f9734db04483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3421e303600ff4cad54f4b415834cbf') in 0.005177 seconds 
+  Import took 0.008682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004915 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/pineapple.cs
+  artifactKey: Guid(050fa7fd3de7ee44b9654e6fc31bcf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/pineapple.cs using Guid(050fa7fd3de7ee44b9654e6fc31bcf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4022091c1acfd1507ba18f3d539d2c8') in 0.004874 seconds 
+  Import took 0.008574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004844 seconds.
+  path: Assets/Script/Feedback.cs
+  artifactKey: Guid(81b5bed8b14fed846a6f837664269cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Feedback.cs using Guid(81b5bed8b14fed846a6f837664269cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8a016f4c258e64c5658f82492a5f1') in 0.004981 seconds 
+  Import took 0.008830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004678 seconds.
+  path: Assets/SimpleFileBrowser/Android/FBPermissionCallbackAndroid.cs
+  artifactKey: Guid(2cd91db0ba676ef47af67e3597037d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Android/FBPermissionCallbackAndroid.cs using Guid(2cd91db0ba676ef47af67e3597037d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc0d4cb4e0a7cf6adfe71e8950bddd0') in 0.005021 seconds 
+  Import took 0.008748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004827 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs
+  artifactKey: Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs using Guid(a4b6f99e8bc54541bbd149b014ff441c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd1f1dbd6e0f76e09e1c1879996ff73') in 0.005157 seconds 
+  Import took 0.009098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005037 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs
+  artifactKey: Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs using Guid(f7cfa58e417a46ea8889989684c2522e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90258149dcabea27eb86150e58270952') in 0.005042 seconds 
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004868 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs
+  artifactKey: Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs using Guid(21256c5b62f346f18640dad779911e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3320e7929150ba681b60750367999f1') in 0.005059 seconds 
+  Import took 0.008638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004926 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs
+  artifactKey: Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs using Guid(d412675cfb3441efa3bf8dcd9b7624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b782acdcc5740cb22f2fd5f3d829734b') in 0.005333 seconds 
+  Import took 0.009185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004988 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/strawberry.cs
+  artifactKey: Guid(b21e22b3d87825d42b2dea33ee4e3c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/strawberry.cs using Guid(b21e22b3d87825d42b2dea33ee4e3c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c1eebc6420b5e08fcb1a2e69be2fe') in 0.004712 seconds 
+  Import took 0.008594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004913 seconds.
+  path: Assets/Scenes/TFileManager.cs
+  artifactKey: Guid(240291fa770930d459ff2cfd81f08a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TFileManager.cs using Guid(240291fa770930d459ff2cfd81f08a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d053c5d28edcd1bd5347ab7b8ba548c') in 0.005023 seconds 
+  Import took 0.008695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004850 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/NonDrawingGraphic.cs
+  artifactKey: Guid(b4fd8cdb8c068dd4bb48c415877496ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/NonDrawingGraphic.cs using Guid(b4fd8cdb8c068dd4bb48c415877496ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b7664b86a0fbe698baa681233e179e') in 0.004935 seconds 
+  Import took 0.008595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008500 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs
+  artifactKey: Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs using Guid(53d91f98a2664f5cb9af11de72ac54ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80831a1bed743021dc36ac88da5e52dd') in 0.004524 seconds 
+  Import took 0.008243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009005 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/SimpleRecycledListView/RecycledListView.cs
+  artifactKey: Guid(87ad67b4806678e40a492e337338760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/SimpleRecycledListView/RecycledListView.cs using Guid(87ad67b4806678e40a492e337338760b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea542e5b4f48486121bc189afdfa890') in 0.005194 seconds 
+  Import took 0.008896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004873 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserQuickLink.cs
+  artifactKey: Guid(1f277f5418eabf94cad94208055878af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserQuickLink.cs using Guid(1f277f5418eabf94cad94208055878af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f19cca0c277185cd5baf26f7a335f6e') in 0.005374 seconds 
+  Import took 0.009084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004900 seconds.
+  path: Assets/Script/Teacher/DateTimeValidation.cs
+  artifactKey: Guid(a224e5630728ec14592553f32fb866bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Teacher/DateTimeValidation.cs using Guid(a224e5630728ec14592553f32fb866bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e3dbba7b4c95d8e93b4e4feaf620d6') in 0.005274 seconds 
+  Import took 0.008876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004864 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs
+  artifactKey: Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs using Guid(24b0dc2d1d494adbbec1f4db26b4cf83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10bdd1166d0bb2cf53109a69ac8b7a6') in 0.005360 seconds 
+  Import took 0.008998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004805 seconds.
+  path: Assets/Script/Teacher/InviteMail.cs
+  artifactKey: Guid(a0ffb32dcd9802041aeff13e0542f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Teacher/InviteMail.cs using Guid(a0ffb32dcd9802041aeff13e0542f6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0682ddc2f230af41074512db9a11762') in 0.005121 seconds 
+  Import took 0.008646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004793 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs
+  artifactKey: Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs using Guid(103e0a6a1d404693b9fb1a5173e0e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315c9feb8d628630e75512b3e98f23b7') in 0.004960 seconds 
+  Import took 0.008677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005048 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/InventoryItemData.cs
+  artifactKey: Guid(69315768b2baa4a3b8409745cca9bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/InventoryItemData.cs using Guid(69315768b2baa4a3b8409745cca9bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9302b50fd96c3604b22d246decca4124') in 0.005177 seconds 
+  Import took 0.008701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004993 seconds.
+  path: Assets/Scenes/Student/Games/BalloonPop/restart.cs
+  artifactKey: Guid(763df805334593c439f4e04c937abca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/BalloonPop/restart.cs using Guid(763df805334593c439f4e04c937abca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd053f71e5bec696871f5cd1280730232') in 0.004963 seconds 
+  Import took 0.008643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004766 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs
+  artifactKey: Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs using Guid(790744c462254b7ba8038e6ed28b3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45de8ae61c22d0b24005c6d934555dde') in 0.005913 seconds 
+  Import took 0.009914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005149 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserContextMenu.cs
+  artifactKey: Guid(0d5261bc2717e6143961d30ccb76fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserContextMenu.cs using Guid(0d5261bc2717e6143961d30ccb76fb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194bab3a76586c0c3202d71cf9d1fb7c') in 0.005213 seconds 
+  Import took 0.008913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004731 seconds.
+  path: Assets/Script/QRScanner.cs
+  artifactKey: Guid(d137544be00527a40a3f93c5b3cc497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/QRScanner.cs using Guid(d137544be00527a40a3f93c5b3cc497a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6712f5f9138998ed5c0453a2f046d5d') in 0.005188 seconds 
+  Import took 0.008765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004721 seconds.
+  path: Assets/Scenes/Student/Games/BalloonPop/jawab.cs
+  artifactKey: Guid(772352841a3e0a54cb00df398f24da76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/BalloonPop/jawab.cs using Guid(772352841a3e0a54cb00df398f24da76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866d28e12fe25b2188773e56ffc94073') in 0.005528 seconds 
+  Import took 0.009280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004752 seconds.
+  path: Assets/Scenes/Student/Games/BalloonPop/LoadingScreen/LoadingScene.cs
+  artifactKey: Guid(caeae5cd4162bbd438961ce91c3e5f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/BalloonPop/LoadingScreen/LoadingScene.cs using Guid(caeae5cd4162bbd438961ce91c3e5f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51cb9e91d1dc46de020a0b8f6b93827') in 0.005286 seconds 
+  Import took 0.008844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004933 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs
+  artifactKey: Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs using Guid(2ed57967c52645d390a89dcf8f61ba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cec5f6d831c40ccd63d1c2c0155f78b') in 0.004984 seconds 
+  Import took 0.008517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004827 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs
+  artifactKey: Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs using Guid(dc20866c0d5e413ab7559440e15333ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c97b3fcd929d5e8d321650e65f67426') in 0.004940 seconds 
+  Import took 0.008591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008818 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs
+  artifactKey: Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs using Guid(a4d4c76e63944cba8c7d00f56334b98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783dbe47c12da584f7a9865e461d22b5') in 0.004852 seconds 
+  Import took 0.009685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005599 seconds.
+  path: Assets/Script/addChild.cs
+  artifactKey: Guid(6a4f3ea6638cf5a4f8c212ad81742575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/addChild.cs using Guid(6a4f3ea6638cf5a4f8c212ad81742575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11cc5b6913e3c40751139d5da1c95ea') in 0.005222 seconds 
+  Import took 0.008981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004802 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/DefaultSerializer.cs
+  artifactKey: Guid(5da1b0c1787a4aac85b116922a223a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/DefaultSerializer.cs using Guid(5da1b0c1787a4aac85b116922a223a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af63ee7927f0d6aad6337b3389abedf1') in 0.005297 seconds 
+  Import took 0.008960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004748 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/audiobutton.cs
+  artifactKey: Guid(1eb4ac6b3a54efa42b653f6c5d26ded9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/audiobutton.cs using Guid(1eb4ac6b3a54efa42b653f6c5d26ded9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8512c7ddf11a8bca8b2838880743cbf9') in 0.005006 seconds 
+  Import took 0.008707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004739 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserCursorHandler.cs
+  artifactKey: Guid(759524cf7ef37f244bb00cd9724f0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserCursorHandler.cs using Guid(759524cf7ef37f244bb00cd9724f0349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fec471d7de58ee0769dcb3c7537408a') in 0.004958 seconds 
+  Import took 0.008530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005052 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs
+  artifactKey: Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs using Guid(9eff140b25d64601aabc6ba32245d099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066afd32fc97a71863255e94b961c6c9') in 0.005150 seconds 
+  Import took 0.008957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004882 seconds.
+  path: Assets/Script/Click.cs
+  artifactKey: Guid(7567bdb74ea0f0b43a651f780d153fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Click.cs using Guid(7567bdb74ea0f0b43a651f780d153fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d12abf7d69c20388f40616f802bcee1') in 0.004901 seconds 
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004930 seconds.
+  path: Assets/scripts/tombol.cs
+  artifactKey: Guid(73e1abe6f6ba8b9489796250f4099ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/tombol.cs using Guid(73e1abe6f6ba8b9489796250f4099ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd692ea2db4bd9fd47043dfa07a25439') in 0.004762 seconds 
+  Import took 0.008561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005006 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/GameNotificationChannel.cs
+  artifactKey: Guid(a302b41a7ebd48fe9bd589b7a3a6df4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/GameNotificationChannel.cs using Guid(a302b41a7ebd48fe9bd589b7a3a6df4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f9458001d0679fa2932099d3e5c21c') in 0.005048 seconds 
+  Import took 0.008991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009232 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/GameControllvl2.cs
+  artifactKey: Guid(d66d41805aa178446a4efebb5d20a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/GameControllvl2.cs using Guid(d66d41805aa178446a4efebb5d20a348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8885bf9700f67d75bdaf6c52884cc550') in 0.005022 seconds 
+  Import took 0.008754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004716 seconds.
+  path: Assets/Script/Sessions/ChatData.cs
+  artifactKey: Guid(6aa790b3777b5b34ea0cef99a3250afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Sessions/ChatData.cs using Guid(6aa790b3777b5b34ea0cef99a3250afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3805c85d740d2f60e1cb2d6f10a132b3') in 0.005090 seconds 
+  Import took 0.008818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004913 seconds.
+  path: Assets/Script/EnrolledSubject.cs
+  artifactKey: Guid(8d6f96eb32ba2274499f0b2ad15006e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/EnrolledSubject.cs using Guid(8d6f96eb32ba2274499f0b2ad15006e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa325b315a75b7f3a12b418e8b94bdd') in 0.005329 seconds 
+  Import took 0.008838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005115 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/ChangeScene1.cs
+  artifactKey: Guid(d1b05fd5959c05c47bbee5c0383e84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/ChangeScene1.cs using Guid(d1b05fd5959c05c47bbee5c0383e84d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5eeb87d37fa41988571ebdc0cf2afb') in 0.002090 seconds 
+  Import took 0.005613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004781 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs
+  artifactKey: Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs using Guid(f970ea55f9f84bf79b05dab180b8c125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e699ea36bae1db8e234bcfc5dec795e8') in 0.005364 seconds 
+  Import took 0.009048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004908 seconds.
+  path: Assets/scripts/GameRun.cs
+  artifactKey: Guid(b5a74a39c11a6434c867c30061c9356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/GameRun.cs using Guid(b5a74a39c11a6434c867c30061c9356a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b4fd0dccfc244a8c20d9a66f0ef39c') in 0.004956 seconds 
+  Import took 0.008463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004713 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs
+  artifactKey: Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs using Guid(ac1eb05af6d391b4eb0f4c070a99f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed85738fdbabb7c1d530c54ea4a7ec6') in 0.004912 seconds 
+  Import took 0.008418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004760 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/watermelon.cs
+  artifactKey: Guid(3ef6bad47146a9f49851dc5553eac71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/watermelon.cs using Guid(3ef6bad47146a9f49851dc5553eac71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce24debb99310fbe02965e76c7b4719') in 0.004682 seconds 
+  Import took 0.008447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004846 seconds.
+  path: Assets/Script/createSubject.cs
+  artifactKey: Guid(47f9ab1d78ad4d64984e4111ac6a1f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/createSubject.cs using Guid(47f9ab1d78ad4d64984e4111ac6a1f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56262359db9ca1eb4b3018b99c6b31e') in 0.004472 seconds 
+  Import took 0.007914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004485 seconds.
+  path: Assets/Script/Chat/selectUser.cs
+  artifactKey: Guid(87faa3282286ee142b5cafe06744e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Chat/selectUser.cs using Guid(87faa3282286ee142b5cafe06744e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae3d0ba8699c711d65cd7a1c52ee209') in 0.004411 seconds 
+  Import took 0.008081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004467 seconds.
+  path: Assets/onClickDisplaySubject.cs
+  artifactKey: Guid(04532361c4eb24d4686983905a2ec313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onClickDisplaySubject.cs using Guid(04532361c4eb24d4686983905a2ec313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629116ba71e9c664a798e9feadff919c') in 0.004462 seconds 
+  Import took 0.008103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004458 seconds.
+  path: Assets/Scenes/Student/Games/puzzle/bahan/drag.cs
+  artifactKey: Guid(e6d31e3925e3f8f40b59ea092c24d826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/puzzle/bahan/drag.cs using Guid(e6d31e3925e3f8f40b59ea092c24d826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42984301afb2b9bfeb12766a1ef59f47') in 0.004655 seconds 
+  Import took 0.008303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004626 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/BuyInventoryItem.cs
+  artifactKey: Guid(3748f80abcfae4727bb9aa6f5c76cb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/BuyInventoryItem.cs using Guid(3748f80abcfae4727bb9aa6f5c76cb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52513b4adfa83329336d66d9c7507bf4') in 0.004595 seconds 
+  Import took 0.008021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004403 seconds.
+  path: Assets/Scenes/Student/Games/puzzle/bahan/reset.cs
+  artifactKey: Guid(f727d8feff5725e498eea4a4b409401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/puzzle/bahan/reset.cs using Guid(f727d8feff5725e498eea4a4b409401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6492111cccc5471a486821848064e872') in 0.004315 seconds 
+  Import took 0.007972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004527 seconds.
+  path: Assets/scripts/upload_file.cs
+  artifactKey: Guid(ff5a4574d77bce449aff9d25a3ce68e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/upload_file.cs using Guid(ff5a4574d77bce449aff9d25a3ce68e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783fe0c237799af6bfb410537755d639') in 0.004373 seconds 
+  Import took 0.007785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004563 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/Android/AndroidNotificationCenterExtensions.cs
+  artifactKey: Guid(ec9e05f42636d4a17b1da71d25a9bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/Android/AndroidNotificationCenterExtensions.cs using Guid(ec9e05f42636d4a17b1da71d25a9bc9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279bb0f322d6936dec449bf04cd540de') in 0.004607 seconds 
+  Import took 0.008354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004555 seconds.
+  path: Assets/SimpleFileBrowser/Android/FBDirectoryReceiveCallbackAndroid.cs
+  artifactKey: Guid(8dec4dc5be16ca84e9c147627361671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Android/FBDirectoryReceiveCallbackAndroid.cs using Guid(8dec4dc5be16ca84e9c147627361671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d28f00e9c01e8c038053559c923c63') in 0.004482 seconds 
+  Import took 0.007943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004619 seconds.
+  path: Assets/Script/dBManager.cs
+  artifactKey: Guid(dc907eb3e889ef140acad2d01515ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/dBManager.cs using Guid(dc907eb3e889ef140acad2d01515ce7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97618be3b5aa2bbec5074f0034ec9f30') in 0.004353 seconds 
+  Import took 0.008005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004484 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/LoadingScreen 1/LoadingScene2.cs
+  artifactKey: Guid(a9192beba11d6c144a69d05545c233ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/LoadingScreen 1/LoadingScene2.cs using Guid(a9192beba11d6c144a69d05545c233ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123dabde9d6e1a8e4389054a177722d3') in 0.004398 seconds 
+  Import took 0.008227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004594 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs
+  artifactKey: Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs using Guid(83680ab1a69f4102ac67d1459fe76e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce085e0f0485ba1c93e8b01e769fdb0') in 0.004541 seconds 
+  Import took 0.007957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008511 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/IPendingNotificationsSerializer.cs
+  artifactKey: Guid(6583e0c6af5841769cfd7bcca972c67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/IPendingNotificationsSerializer.cs using Guid(6583e0c6af5841769cfd7bcca972c67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12911ea1056b4a7abb674a94bb7e005') in 0.004547 seconds 
+  Import took 0.008146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005838 seconds.
+  path: Assets/Scenes/Student/Games/GameQuiz/Quiz_Manager.cs
+  artifactKey: Guid(a4a57da649fab684e90e1480e52765e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/GameQuiz/Quiz_Manager.cs using Guid(a4a57da649fab684e90e1480e52765e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f503ac4d3bae0371c9d14ba5e58aa510') in 0.005112 seconds 
+  Import took 0.008924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004597 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs
+  artifactKey: Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs using Guid(d736ce056cf444ca96e424f4d9c42b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d4d1426c60de403d30579ad715a398') in 0.004474 seconds 
+  Import took 0.008054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004502 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/GameControllvl1.cs
+  artifactKey: Guid(94d16d3fbb0a6b8458dbaff83683a0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/GameControllvl1.cs using Guid(94d16d3fbb0a6b8458dbaff83683a0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc532451adbdaa0f115ba6e0518766d') in 0.004575 seconds 
+  Import took 0.008163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004374 seconds.
+  path: Assets/MainMenuScript.cs
+  artifactKey: Guid(6cddbed3a74992a408c451a1c93778ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenuScript.cs using Guid(6cddbed3a74992a408c451a1c93778ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb9049100c0e0105e68456826308401') in 0.004389 seconds 
+  Import took 0.008020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004589 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/NotificationEventItem.cs
+  artifactKey: Guid(43834a2f62df4005b86a5fe960b327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/NotificationEventItem.cs using Guid(43834a2f62df4005b86a5fe960b327b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7836e5c4271fc91fe39cba60939d13') in 0.004265 seconds 
+  Import took 0.007672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004577 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/lemon.cs
+  artifactKey: Guid(98433f579d0dfbd45a3cb8a4934802fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/lemon.cs using Guid(98433f579d0dfbd45a3cb8a4934802fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dda9a809f6450b449f0d30187ac4a33') in 0.004270 seconds 
+  Import took 0.007847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004490 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserDeleteConfirmationPanel.cs
+  artifactKey: Guid(e63253265f9892b4f903968d5f58c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserDeleteConfirmationPanel.cs using Guid(e63253265f9892b4f903968d5f58c0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b49a9e904348ece3063264f5c98319') in 0.004646 seconds 
+  Import took 0.008204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004625 seconds.
+  path: Assets/Script/Parent/Parent - Module/getModule.cs
+  artifactKey: Guid(e88eb355ee944af4aad9555e919a7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Parent/Parent - Module/getModule.cs using Guid(e88eb355ee944af4aad9555e919a7fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7600d9c526083867f2e734b9f6795a') in 0.004634 seconds 
+  Import took 0.008091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008396 seconds.
+  path: Assets/Script/Chat/getUsers.cs
+  artifactKey: Guid(86dc9ab4191c67744a931f9f22a21b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Chat/getUsers.cs using Guid(86dc9ab4191c67744a931f9f22a21b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0441d156ed1b640343e5f308aef342') in 0.004434 seconds 
+  Import took 0.008113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004593 seconds.
+  path: Assets/Script/Register.cs
+  artifactKey: Guid(4d1b6a920230f834f9f8670d7c65d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Register.cs using Guid(4d1b6a920230f834f9f8670d7c65d658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fd62e7c2b1e50180da1e9f15e334aa') in 0.004482 seconds 
+  Import took 0.008104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004428 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs
+  artifactKey: Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs using Guid(c3c1afeda5e545e0b19add5373896d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb7ef90dd07ec08a574654e2e57a2d4') in 0.004771 seconds 
+  Import took 0.008306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004568 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowser.cs
+  artifactKey: Guid(f51dc09bf9e35804ba0f5e76c527025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowser.cs using Guid(f51dc09bf9e35804ba0f5e76c527025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbd579ee4c93f5dd5db914bb4a94e1b') in 0.004389 seconds 
+  Import took 0.008095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004390 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/UISkin.cs
+  artifactKey: Guid(66bc3ce4885990c40a88f80fe0ad0101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/UISkin.cs using Guid(66bc3ce4885990c40a88f80fe0ad0101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8134302f6e136b7a42466da8db2ebf46') in 0.004404 seconds 
+  Import took 0.007984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004575 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/PendingNotification.cs
+  artifactKey: Guid(e0d0e78678f24701974f87c106ac326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Scripts/PendingNotification.cs using Guid(e0d0e78678f24701974f87c106ac326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fb47fdc9d8e844512154af3b3a4081') in 0.004262 seconds 
+  Import took 0.007741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004669 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs
+  artifactKey: Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs using Guid(91b8ba3d52e041fab2d0e0f169855539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde44301e137c989292cc4d8c0d4dd17') in 0.004379 seconds 
+  Import took 0.008008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004693 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserItem.cs
+  artifactKey: Guid(b5f1b2825c50f7b4d9be146ab2137bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserItem.cs using Guid(b5f1b2825c50f7b4d9be146ab2137bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de233cbd1e5bdc1686004ce11572c84d') in 0.008468 seconds 
+  Import took 0.011948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004724 seconds.
+  path: Assets/SimpleFileBrowser/Scripts/FileBrowserMovement.cs
+  artifactKey: Guid(46d41d79fe7c3d44ca846b4f3d81a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFileBrowser/Scripts/FileBrowserMovement.cs using Guid(46d41d79fe7c3d44ca846b4f3d81a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458dd646eee32ee9ed3d43a72f2e47dc') in 0.004799 seconds 
+  Import took 0.008368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005214 seconds.
+  path: Assets/Scenes/Student/Games/puzzle/bahan/control.cs
+  artifactKey: Guid(ff92f25519276f346b58635a8b0e7bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/puzzle/bahan/control.cs using Guid(ff92f25519276f346b58635a8b0e7bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd809b21d7a270cfcc05a8a790b5ab9') in 0.004883 seconds 
+  Import took 0.008691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004762 seconds.
+  path: Assets/Script/Teacher/SelectClass.cs
+  artifactKey: Guid(315b0595cce0a5840ac46ad9b981058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Teacher/SelectClass.cs using Guid(315b0595cce0a5840ac46ad9b981058d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e84efa51f468339a86d60568402f58') in 0.005106 seconds 
+  Import took 0.008794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004893 seconds.
+  path: Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/NotificationConsole.cs
+  artifactKey: Guid(cb688dae2ce0d3645a718311956f62e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Mobile Notifications/1.4.2/Notification Samples/Demo/NotificationConsole.cs using Guid(cb688dae2ce0d3645a718311956f62e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31e7f03123e25ff596d79e955d6fe86') in 0.005011 seconds 
+  Import took 0.008719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004903 seconds.
+  path: Assets/Scenes/Student/Games/Drag and drop Script/script/orange.cs
+  artifactKey: Guid(54ce73849eb2b124382166a7df923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Student/Games/Drag and drop Script/script/orange.cs using Guid(54ce73849eb2b124382166a7df923b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57fd6f5888ab70b1ca8074ded5f8b5d') in 0.004971 seconds 
+  Import took 0.008478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004773 seconds.
+  path: Assets/Script/parentChat.cs
+  artifactKey: Guid(af74fa686fe123f4abed2119ea78c813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/parentChat.cs using Guid(af74fa686fe123f4abed2119ea78c813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c97500e72813500f2f6c3d64b35d8e') in 0.004914 seconds 
+  Import took 0.008439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004784 seconds.
+  path: Assets/Script/SelectSubject.cs
+  artifactKey: Guid(a4b0b85125b31da449318710c36a4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/SelectSubject.cs using Guid(a4b0b85125b31da449318710c36a4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291e556b5f1c792981cfca1fa930b946') in 0.004986 seconds 
+  Import took 0.008742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004858 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs
+  artifactKey: Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs using Guid(1312ae25639a4bae8e25ae223209cc50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044596276e64027adc1f872b4c79e294') in 0.005150 seconds 
+  Import took 0.008968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004994 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs
+  artifactKey: Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs using Guid(e8538afcddc14efbb5d9e94b7ae50197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fc334ee6739fbc43c0395da69767e4') in 0.005000 seconds 
+  Import took 0.008669 seconds .
+

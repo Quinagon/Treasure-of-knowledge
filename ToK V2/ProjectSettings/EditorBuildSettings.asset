@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Teacher/Homepage.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentModule.unity
+    guid: 46bb4d45882a7bf4eac1443c2fa24901
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/LandingPage.unity
+    guid: 3a88764dcc37ae048be60862b8750ad7
+  - enabled: 1
+    path: Assets/Scenes/Teacher/Archive.unity
+    guid: 6bcbd791cd95ee542868662e10e5e785
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/Login.unity
+    guid: 950b754d081426041978a2bc824b0a97
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentAddChild.unity
+    guid: 89721fb6e2156394e8cb4dd6f6f5b2c3
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/Register.unity
+    guid: c8a86d760eb7ee646a9657e1889773bf
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentHome.unity
+    guid: ee658dceebeb4f541be96431fa67b699
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentTodo.unity
+    guid: 5295439d06eda224ca06a3aa5f972823
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/enrollQR.unity
+    guid: e4ca4e71862148848ba8f51242bdd95d
+  - enabled: 1
+    path: Assets/Scenes/Teacher/Classroom.unity
+    guid: e9687aea65058154cbb5b3c02869a0c7
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentClassRoom.unity
+    guid: ac1948bc3e882c148b5d4e5bd7a48141
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentArchive.unity
+    guid: 8cef47f7cc01f5d4dbd9b21103e8b47d
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentAccountSettings.unity
+    guid: 08cf8c8a3b55a7b4aafe017828f0a50f
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentHelp.unity
+    guid: 9432efa714c98d244897bd83dc0d71e1
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/BalloonPop/Home_Balloon.unity
+    guid: 3e1b967f954f75a4c8b4ae478f81f21c
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/GameQuiz/QuizGame.unity
+    guid: c406607fc229a7f49bf21930abc9f60e
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/GameQuiz/LoadingScreen 1/Loading2.unity
+    guid: 6b2fdadf297846b4e97624b53775633b
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/BalloonPop/LoadingScreen/Loading1.unity
+    guid: 409fb5586b862b444b5be6946aeed3e2
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/GameQuiz/TutorialScene.unity
+    guid: dec5b0e923d93444591a05401cbda57c
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/Number Counting/Addition.unity
+    guid: 70294aa92db34734584e275b9e935f59
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/Number Counting/game.unity
+    guid: 5f88133a17f9d974a916365ad15f59d2
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/Number Counting/main.unity
+    guid: 0ba9ba3dca187c24082ec409c3d86622
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/Number Counting/Menu.unity
+    guid: f3d2f9b7f5927e747b3258b88eae8dd4
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/Number Counting/Subtraction.unity
+    guid: 6cffdce6acf229c418eba996251645e2
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/puzzle/puzzle 1.unity
+    guid: 3734c888ca7c31845b920a52fa3bc24e
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/puzzle/puzzle Home.unity
+    guid: c24e559772434b3429eb7e626d8c3b63
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/puzzle/puzzle.unity
+    guid: b17826ba31efe9043885186f0c649f29
+  - enabled: 1
+    path: Assets/Scenes/Student/Games/BalloonPop/GamePlayWholeNumbers.unity
+    guid: 4e5504a826470194a85024eeb84780ac
+  - enabled: 1
+    path: Assets/Scenes/Teacher/Classwork.unity
+    guid: fc4c0d64f40dd934db71e2b85c1ab389
+  - enabled: 1
+    path: Assets/Scenes/Student/StudentHome.unity
+    guid: ca1b92c7405372446abffd18c0c2b547
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/category.unity
+    guid: 9c9f7744616c2c64390ab854c5c364f5
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/drag and drop 1.unity
+    guid: 5b4f2634d06a44c4abe4b49159857ea0
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/drag and drop 2.unity
+    guid: 84286dd7e56c4a149a65f5bc0fcb06a0
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/drag and drop 3.unity
+    guid: 4de29da9fa854ef4cbe2cdeea295d9a3
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/Home.unity
+    guid: 0f99338e5212d894eafa4039dbf49ba0
+  - enabled: 1
+    path: Assets/Scenes/Parent/notIfication.unity
+    guid: b82f587395d96a74caf648214f19a0df
+  - enabled: 1
+    path: Assets/Scenes/Parent/notIfication.unity
+    guid: b82f587395d96a74caf648214f19a0df
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentModule.unity
+    guid: 46bb4d45882a7bf4eac1443c2fa24901
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/LandingPage.unity
+    guid: 3a88764dcc37ae048be60862b8750ad7
+  - enabled: 1
+    path: Assets/Scenes/Teacher/Archive.unity
+    guid: 6bcbd791cd95ee542868662e10e5e785
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/Login.unity
+    guid: 950b754d081426041978a2bc824b0a97
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentAddChild.unity
+    guid: 89721fb6e2156394e8cb4dd6f6f5b2c3
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/category.unity
+    guid: 9c9f7744616c2c64390ab854c5c364f5
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/Register.unity
+    guid: c8a86d760eb7ee646a9657e1889773bf
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentHome.unity
+    guid: ee658dceebeb4f541be96431fa67b699
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentTodo.unity
+    guid: 5295439d06eda224ca06a3aa5f972823
+  - enabled: 1
+    path: Assets/Scenes/Login_Register/enrollQR.unity
+    guid: e4ca4e71862148848ba8f51242bdd95d
+  - enabled: 1
+    path: Assets/Scenes/Teacher/Classroom.unity
+    guid: e9687aea65058154cbb5b3c02869a0c7
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentClassRoom.unity
+    guid: ac1948bc3e882c148b5d4e5bd7a48141
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentArchive.unity
+    guid: 8cef47f7cc01f5d4dbd9b21103e8b47d
+  - enabled: 1
+    path: Assets/Scenes/Parent/ParentAccountSettings.unity
+    guid: 08cf8c8a3b55a7b4aafe017828f0a50f
+  - enabled: 0
+    path: Assets/Scenes/Parent/ParentHelp.unity
+    guid: 9432efa714c98d244897bd83dc0d71e1
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/BalloonPop/Home_Balloon.unity
+    guid: 3e1b967f954f75a4c8b4ae478f81f21c
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/GameQuiz/QuizGame.unity
+    guid: c406607fc229a7f49bf21930abc9f60e
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/GameQuiz/LoadingScreen 1/Loading2.unity
+    guid: 6b2fdadf297846b4e97624b53775633b
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/BalloonPop/LoadingScreen/Loading1.unity
+    guid: 409fb5586b862b444b5be6946aeed3e2
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/GameQuiz/TutorialScene.unity
+    guid: dec5b0e923d93444591a05401cbda57c
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Number Counting/Addition.unity
+    guid: 70294aa92db34734584e275b9e935f59
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Number Counting/game.unity
+    guid: 5f88133a17f9d974a916365ad15f59d2
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Number Counting/main.unity
+    guid: 0ba9ba3dca187c24082ec409c3d86622
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Number Counting/Menu.unity
+    guid: f3d2f9b7f5927e747b3258b88eae8dd4
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Number Counting/Subtraction.unity
+    guid: 6cffdce6acf229c418eba996251645e2
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/puzzle/puzzle 1.unity
+    guid: 3734c888ca7c31845b920a52fa3bc24e
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/puzzle/puzzle Home.unity
+    guid: c24e559772434b3429eb7e626d8c3b63
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/puzzle/puzzle.unity
+    guid: b17826ba31efe9043885186f0c649f29
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/BalloonPop/GamePlayWholeNumbers.unity
+    guid: 4e5504a826470194a85024eeb84780ac
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/drag and drop 1.unity
+    guid: 5b4f2634d06a44c4abe4b49159857ea0
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/drag and drop 2.unity
+    guid: 84286dd7e56c4a149a65f5bc0fcb06a0
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/drag and drop 3.unity
+    guid: 4de29da9fa854ef4cbe2cdeea295d9a3
+  - enabled: 0
+    path: Assets/Scenes/Student/Games/Drag and drop Script/scenes/Home.unity
+    guid: 0f99338e5212d894eafa4039dbf49ba0
+  - enabled: 1
+    path: Assets/Scenes/Parent/notIfication.unity
+    guid: b82f587395d96a74caf648214f19a0df
+  - enabled: 1
+    path: Assets/Scenes/Parent/Support.unity
+    guid: fbcc3b6ee572b864f843b9c46df1a4ad
+  - enabled: 1
+    path: Assets/Scenes/Parent/Sign in page.unity
+    guid: 8a004ea15251ffd4797918c2f1125358
+  - enabled: 1
+    path: Assets/Scenes/Parent/QR page.unity
+    guid: 6c8a49183fa4c744e9d12d8481483534
+  - enabled: 1
+    path: Assets/Scenes/Parent/Assigned page.unity
+    guid: f21ca307fbeafd04b953ea8b1af63e5f
+  - enabled: 1
+    path: Assets/Scenes/Parent/Stream page.unity
+    guid: 2ec9b5ad381c91743931e329769ad2ee
+  - enabled: 1
+    path: Assets/Scenes/Parent/Feedback page.unity
+    guid: ec2ba53d01de6f240bf3527c721b4624
+  - enabled: 1
+    path: Assets/Scenes/Parent/Classwork.unity
+    guid: 03c9c13e66df1e442a673c700d993f53
+  - enabled: 1
+    path: Assets/Scenes/Parent/OpenClasswork.unity
+    guid: 3038b6a6f1646574891d8f32d6125e2b
+  m_configObjects: {}
